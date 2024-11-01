@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+.tabs-bevel {
+  margin: 0 !important;
+}
+
+
+.tabs-bevel ul.tabs-nav {
+  text-align: left;
+}
+
+.tabs-bevel ul.tabs-nav li.tabs-nav-items {
+	padding: 6px 10px;
+
+	background: linear-gradient(45deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0%, linear-gradient(135deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0%, linear-gradient(225deg, rgba(0, 0, 0, 0) 10px, #01ce6a 10px) repeat scroll 0 0%, linear-gradient(315deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+	background: -moz-linear-gradient(45deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0%, -moz-linear-gradient(135deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0%, -moz-linear-gradient(225deg, rgba(0, 0, 0, 0) 10px, #01ce6a 10px) repeat scroll 0 0%, -moz-linear-gradient(315deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+	background: -webkit-linear-gradient(45deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0%, -webkit-linear-gradient(135deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0%, -webkit-linear-gradient(225deg, rgba(0, 0, 0, 0) 10px, #01ce6a 10px) repeat scroll 0 0%, -webkit-linear-gradient(315deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+	background: -o-linear-gradient(45deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0%, -o-linear-gradient(135deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0%, -o-linear-gradient(225deg, rgba(0, 0, 0, 0) 10px, #01ce6a 10px) repeat scroll 0 0%, -o-linear-gradient(315deg, #01ce6a 10px, #01ce6a 10px) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+	
+	
+    background-position: left bottom, right bottom, right top, left top;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+	margin-right: 3px;
+}
+
+
+
+.tabs-bevel .r-tabs-accordion-title{
+	background: #01ce6a;
+	border-bottom: 1px solid #cdcdcd;
+	text-align: left;
+	padding:8px 10px;
+	}
+
+.tabs-bevel .r-tabs-accordion-title a{
+	text-decoration: none;
+	}
+
+.tabs-bevel .r-tabs-state-active{
+
+	}
+
+
+
+
+
+
+.tabs-bevel ul.tabs-nav li.tabs-nav-items:last-child {
+  border-right: none;
+}
+.tabs-bevel ul.tabs-nav li.tabs-nav-items:first-child {
+  border-left: none;
+}
+
+.tabs-bevel ul.tabs-nav li.r-tabs-state-active {
+
+	padding: 6px 10px;
+	
+	background: linear-gradient(45deg, #02e576 10px, #02e576 10px) repeat scroll 0 0%, linear-gradient(135deg, #02e576 10px, #02e576 10px) repeat scroll 0 0%, linear-gradient(225deg, rgba(0, 0, 0, 0) 10px, #02e576 10px) repeat scroll 0 0%, linear-gradient(315deg, #02e576 10px, #02e576 10px) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+	background: -moz-linear-gradient(45deg, #02e576 10px, #02e576 10px) repeat scroll 0 0%, -moz-linear-gradient(135deg, #02e576 10px, #02e576 10px) repeat scroll 0 0%, -moz-linear-gradient(225deg, rgba(0, 0, 0, 0) 10px, #02e576 10px) repeat scroll 0 0%, -moz-linear-gradient(315deg, #02e576 10px, #02e576 10px) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+	background: -webkit-linear-gradient(45deg, #02e576 10px, #02e576 10px) repeat scroll 0 0%, -webkit-linear-gradient(135deg, #02e576 10px, #02e576 10px) repeat scroll 0 0%, -webkit-linear-gradient(225deg, rgba(0, 0, 0, 0) 10px, #02e576 10px) repeat scroll 0 0%, -webkit-linear-gradient(315deg, #02e576 10px, #02e576 10px) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+	background: -o-linear-gradient(45deg, #02e576 10px, #02e576 10px) repeat scroll 0 0%, -o-linear-gradient(135deg, #02e576 10px, #02e576 10px) repeat scroll 0 0%, -o-linear-gradient(225deg, rgba(0, 0, 0, 0) 10px, #02e576 10px) repeat scroll 0 0%, -o-linear-gradient(315deg, #02e576 10px, #02e576 10px) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+	
+	
+	
+    background-position: left bottom, right bottom, right top, left top;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+ 
+  
+  
+  
+}
+
+.tabs-bevel ul.tabs-nav li.tabs-nav-items a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.tabs-bevel ul.tabs-nav li.tabs-nav-items a i {
+  padding-right: 10px;
+}
+
+
+.tabs-bevel ul.tabs-nav li.tabs-nav-items a .fa-custom {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: inline-block;
+  height: 30px;
+  margin-right: 10px;
+  width: 30px;
+}
+
+
+.tabs-bevel .tabs-content {
+  text-align: left;
+  background: #02e576;
+   overflow: hidden;
+}
+
+
+

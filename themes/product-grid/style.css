@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.woo_tab-content .item {
+  display: inline-table;
+  margin: 10px 15px;
+  width: 120px;
+}
+
+.woo_tab-content .item .title {
+  font-size: 14px;
+  padding: 10px 0;
+  text-align: left;
+}
+.woo_tab-content .item .title a {
+	color:#fff !important;
+	text-decoration:none;
+}
+
+.woo_tab-content .item .thumb {
+
+	
+}
+.woo_tab-content .item .price {
+  padding: 0 0 10px;
+}
+.woo_tab-content .item .price ins {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+
+.woo_tab-content .item .cart .amount{
+	display:none;
+
+	
+}
+
+
+
+.woo_tab-content .item .add_to_cart_inline {
+	border:0 !important;
+	padding: 0 !important;
+	
+}
+
+.woo_tab-content .item .add_to_cart_inline {
+	border:0 !important;
+	padding: 0 !important;
+	
+}
+
+.woo_tab-content .item .add_to_cart_inline ins{
+	background:none;
+	
+}
+
+
+
